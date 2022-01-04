@@ -1,0 +1,28 @@
+public enum ChatType
+{
+    StartSow = 0,
+    StartWater,
+    Wait,
+    StartSleep,
+    WakeUp,
+    InterruptSleep,
+    StartCanteen,
+    Eat,
+    SortCanteen,
+    StartWc,
+    EndWc,
+    SeeBoss,
+    FullStore,
+    StartFeed,
+    Feed,
+    StartGainAnimal,
+    GainAnimal,
+    Gain,
+    StartGainCrop,
+    GainCrop,
+    StartStore,
+    StartLootAct,
+    WorkFactory,
+    NotEnoughAct,
+    FullFp
+}

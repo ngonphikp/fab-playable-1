@@ -1,0 +1,13 @@
+
+Signal.png
+size: 96,96
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+vong_tuong_tac
+  rotate: false
+  xy: 2, 31
+  size: 92, 63
+  orig: 92, 63
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,852 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1880294157448154755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7409409720600299740}
+  m_Layer: 0
+  m_Name: Content
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7409409720600299740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880294157448154755}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6389334895006776879}
+  - {fileID: 7880007465025498173}
+  m_Father: {fileID: 6389334895654392999}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2305539848920818915
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5908656180264342810}
+  m_Layer: 5
+  m_Name: BarHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5908656180264342810
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2305539848920818915}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6552082577767254113}
+  m_Father: {fileID: 1120973685300340532}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &2524420056499825005
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5022596582129774269}
+  m_Layer: 0
+  m_Name: Sleep
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5022596582129774269
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2524420056499825005}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6389334895654392999}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3639163278554938459
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3081803605610563889}
+  - component: {fileID: 3343659750572194336}
+  - component: {fileID: 7982681832028734524}
+  m_Layer: 5
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3081803605610563889
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3639163278554938459}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1120973685300340532}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3343659750572194336
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3639163278554938459}
+  m_CullTransparentMesh: 1
+--- !u!114 &7982681832028734524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3639163278554938459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e54bf041527d23043883edff0228ee6e, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 0
+  m_FillAmount: 0
+  m_FillClockwise: 1
+  m_FillOrigin: 1
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &4085163982365960524
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1120973685300340532}
+  - component: {fileID: 1816716490436506278}
+  - component: {fileID: 6999879913008468076}
+  m_Layer: 5
+  m_Name: Enery
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1120973685300340532
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4085163982365960524}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3081803605610563889}
+  - {fileID: 5908656180264342810}
+  m_Father: {fileID: 7880007465025498173}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -53.5, y: 122.5}
+  m_SizeDelta: {x: 41, y: 61}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1816716490436506278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4085163982365960524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cdabb6774b00054d818f93e87ba72cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_value: 1
+  animateBar: 1
+  animationType: 0
+  animTime: 0.3
+  views:
+  - {fileID: 2793133127776694671}
+--- !u!114 &6999879913008468076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4085163982365960524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a1ae49605620af48b38a415f9e2ee5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Progress: {fileID: 1816716490436506278}
+  m_Enery: {fileID: 7022878788036202371}
+  m_EnerySps:
+  - sprite: {fileID: 21300000, guid: 3bd84f02c58e46b4a86d07271a1e03aa, type: 3}
+    value: 1
+  - sprite: {fileID: 21300000, guid: 17963f319c17dd8479d0249c81c389f2, type: 3}
+    value: 0.75
+  - sprite: {fileID: 21300000, guid: f5fe17f2111ddef4e84eaf3315e9e5f3, type: 3}
+    value: 0.5
+  - sprite: {fileID: 21300000, guid: 7701c38617560be4782cf85faa843211, type: 3}
+    value: 0.25
+--- !u!1 &5300043316979222233
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3948647761727432110}
+  m_Layer: 0
+  m_Name: Fire
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3948647761727432110
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5300043316979222233}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6389334895654392999}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6389334895006776872
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6389334895006776879}
+  - component: {fileID: 6389334895006776876}
+  - component: {fileID: 6389334895006776877}
+  - component: {fileID: 6389334895006776878}
+  m_Layer: 0
+  m_Name: Graphic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6389334895006776879
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6389334895006776872}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7409409720600299740}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6389334895006776876
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6389334895006776872}
+  m_Mesh: {fileID: 0}
+--- !u!23 &6389334895006776877
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6389334895006776872}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ecae8af3ffb828d47acba96211151914, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6389334895006776878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6389334895006776872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skeletonDataAsset: {fileID: 11400000, guid: 1d77d97fa63c5ef4abcc30234babf428, type: 2}
+  initialSkinName: 
+  initialFlipX: 0
+  initialFlipY: 0
+  updateWhenInvisible: 3
+  separatorSlotNames: []
+  zSpacing: 0
+  useClipping: 1
+  immutableTriangles: 0
+  pmaVertexColors: 1
+  clearStateOnDisable: 0
+  tintBlack: 0
+  singleSubmesh: 0
+  fixDrawOrder: 0
+  addNormals: 0
+  calculateTangents: 0
+  maskInteraction: 0
+  maskMaterials:
+    materialsMaskDisabled: []
+    materialsInsideMask: []
+    materialsOutsideMask: []
+  disableRenderingOnOverride: 1
+  _animationName: Idle
+  loop: 1
+  timeScale: 1
+  unscaledTime: 0
+--- !u!1 &6389334895654392992
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6389334895654392999}
+  - component: {fileID: 3149033778504644690}
+  - component: {fileID: 7764434180468526739}
+  - component: {fileID: 6708850205074975953}
+  - component: {fileID: 1305028406147264499}
+  - component: {fileID: 6266833854999206336}
+  m_Layer: 0
+  m_Name: Farm
+  m_TagString: Human
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6389334895654392999
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6389334895654392992}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7409409720600299740}
+  - {fileID: 5022596582129774269}
+  - {fileID: 3948647761727432110}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!210 &3149033778504644690
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6389334895654392992}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &7764434180468526739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6389334895654392992}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d7b55c7ecdb49a4a89fa5e6f9022861, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startWhenEnabled: 1
+  asynchronousLoad: 0
+  pauseWhenDisabled: 0
+  restartWhenComplete: 0
+  logTaskChanges: 0
+  group: 0
+  resetValuesOnRestart: 0
+  externalBehavior: {fileID: 0}
+  mBehaviorSource:
+    behaviorName: Farmer
+    behaviorDescription: 
+    mTaskData:
+      types: []
+      parentIndex: 
+      startIndex: 
+      variableStartIndex: 
+      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(550.493164,-353.7974)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-1.025444,123.905777)"},"ID":1,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"IamHuman","NodeData":{"Offset":"(-117.608673,117.529678)"},"ID":2,"Name":"Iam
+        Human","Instant":true,"Humanhuman":0,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true}},{"Type":"BehaviorDesigner.Runtime.Tasks.Repeater","NodeData":{"Offset":"(0,122.352913)"},"ID":3,"Name":"Repeater","Instant":true,"SharedIntcount":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBoolrandomCount":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedIntrandomCountMin":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":1},"SharedIntrandomCountMax":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":1},"SharedBoolrepeatForever":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBoolendOnFailure":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(0,120)"},"ID":4,"Name":"Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-853.1192,118.518524)","Comment":"Move
+        To\nStore","Collapsed":true},"ID":5,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-573.0022,120)","Comment":"Check\nCondition"},"ID":6,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"HasCrop","NodeData":{"Offset":"(-63.4883423,120)"},"ID":7,"Name":"Has
+        Crop","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true}},{"Type":"BehaviorDesigner.Runtime.Tasks.UnknownTask","NodeData":{"Offset":"(46.5116577,120)","Comment":"Unknown
+        Task. Right click and Replace to locate new task."},"ID":8,"Name":"Unknown
+        Has Enery","Instant":true,"StringJSONSerialization":"{\"Type\":\"HasEnery\",\"NodeData\":{\"Offset\":\"(46.5116577,120)\"},\"ID\":8,\"Name\":\"Has
+        Enery\",\"Instant\":true,\"SharedHumanHuman\":{\"Type\":\"SharedHuman\",\"Name\":\"Human\",\"IsShared\":true}}","List`1fieldNameHash":[],"List`1startIndex":[],"List`1dataPosition":[],"List`1unityObjects":[],"List`1byteData":[]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-349.091064,120)","Comment":"Get\nStore"},"ID":9,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"GetStore","NodeData":{"Offset":"(-63.4883423,120)"},"ID":10,"Name":"Get
+        Store","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"SharedStoreStore":{"Type":"SharedStore","Name":"Store","IsShared":true}},{"Type":"StoreToTarget","NodeData":{"Offset":"(50.8721237,120)"},"ID":11,"Name":"Store
+        To Target","Instant":true,"SharedStoreStore":{"Type":"SharedStore","Name":"Store","IsShared":true},"SharedTransformTarget":{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"Target","IsShared":true}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-181.310059,124.534462)","Comment":"Start\nStore"},"ID":12,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.UnknownTask","NodeData":{"Offset":"(0,120)","Comment":"Unknown
+        Task. Right click and Replace to locate new task."},"ID":13,"Name":"Unknown
+        Show Chat","Instant":true,"StringJSONSerialization":"{\"Type\":\"ShowChat\",\"NodeData\":{\"Offset\":\"(0,120)\"},\"ID\":13,\"Name\":\"Show
+        Chat\",\"Instant\":true,\"SharedHumanHuman\":{\"Type\":\"SharedHuman\",\"Name\":\"Human\",\"IsShared\":true},\"ChatTypetype\":\"StartStore\"}","List`1fieldNameHash":[],"List`1startIndex":[],"List`1dataPosition":[],"List`1unityObjects":[],"List`1byteData":[]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(0,120)","Comment":"Move\nTo\nTarget"},"ID":14,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"SetStatusHuman","NodeData":{"Offset":"(-60,120)"},"ID":15,"Name":"Set
+        Status Human","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"HumanStatusstatus":"MoveStore"},{"Type":"MoveAgentHuman","NodeData":{"Offset":"(80,120)"},"ID":16,"Name":"Move
+        Agent Human","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"SharedTransformTarget":{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"Target","IsShared":true},"BooleanisRandom":false,"SingleminDistane":0.1,"SinglemaxDistane":1,"BooleanisDirection":true,"GameObjectself":1}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(330,120)","Comment":"Pay"},"ID":17,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"Pay","NodeData":{"Offset":"(-120,120)"},"ID":18,"Name":"Pay","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"SharedStoreStore":{"Type":"SharedStore","Name":"Store","IsShared":true}},{"Type":"SetStatusHuman","NodeData":{"Offset":"(0,120)"},"ID":19,"Name":"Set
+        Status Human","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"HumanStatusstatus":"Pay"},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(120,120)"},"ID":20,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":2}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(570,120)","Comment":"End\nPay"},"ID":21,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"SetStatusHuman","NodeData":{"Offset":"(0,120)"},"ID":22,"Name":"Set
+        Status Human","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"HumanStatusstatus":"EndPay"}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-385.680328,118.894844)","Comment":"Sowing","Collapsed":true},"ID":23,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-482.9909,121.386)","Comment":"Check\nCondition"},"ID":24,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Inverter","NodeData":{"Offset":"(-218.741943,119.981812)"},"ID":25,"Name":"Inverter","Instant":true,"Children":[{"Type":"HasCrop","NodeData":{"Offset":"(-0.748064041,118.863457)"},"ID":26,"Name":"Has
+        Crop","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.UnknownTask","NodeData":{"Offset":"(-110,120)","Comment":"Unknown
+        Task. Right click and Replace to locate new task."},"ID":27,"Name":"Unknown
+        Has Enery","Instant":true,"StringJSONSerialization":"{\"Type\":\"HasEnery\",\"NodeData\":{\"Offset\":\"(-110,120)\"},\"ID\":65,\"Name\":\"Has
+        Enery\",\"Instant\":true,\"SharedHumanHuman\":{\"Type\":\"SharedHuman\",\"Name\":\"Human\",\"IsShared\":true}}","List`1fieldNameHash":[],"List`1startIndex":[],"List`1dataPosition":[],"List`1unityObjects":[],"List`1byteData":[]},{"Type":"GetLands","NodeData":{"Offset":"(1.39534378,120)"},"ID":28,"Name":"Get
+        Lands","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"SharedLandsLands":{"Type":"SharedLands","Name":"Lands","IsShared":true}},{"Type":"HasStatusLand","NodeData":{"Offset":"(122.427612,120.000854)"},"ID":29,"Name":"Has
+        Status Land","Instant":true,"SharedLandsLands":{"Type":"SharedLands","Name":"Lands","IsShared":true},"Typetype":"CanSowing"}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-235.387482,121.181885)","Comment":"Start\nSow"},"ID":30,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.UnknownTask","NodeData":{"Offset":"(-2.02539063,124.472168)","Comment":"Unknown
+        Task. Right click and Replace to locate new task."},"ID":31,"Name":"Unknown
+        Show Chat","Instant":true,"StringJSONSerialization":"{\"Type\":\"ShowChat\",\"NodeData\":{\"Offset\":\"(-2.02539063,124.472168)\"},\"ID\":69,\"Name\":\"Show
+        Chat\",\"Instant\":true,\"SharedHumanHuman\":{\"Type\":\"SharedHuman\",\"Name\":\"Human\",\"IsShared\":true},\"ChatTypetype\":\"StartSow\"}","List`1fieldNameHash":[],"List`1startIndex":[],"List`1dataPosition":[],"List`1unityObjects":[],"List`1byteData":[]},{"Type":"SetStatusHuman","NodeData":{"Offset":"(120.039307,124.604126)"},"ID":32,"Name":"Set
+        Status Human","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"HumanStatusstatus":"StartSow"}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Inverter","NodeData":{"Offset":"(-3.84857178,120.950623)"},"ID":33,"Name":"Inverter","Instant":true,"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Repeater","NodeData":{"Offset":"(0,120)"},"ID":34,"Name":"Repeater","Instant":true,"SharedIntcount":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBoolrandomCount":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedIntrandomCountMin":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":1},"SharedIntrandomCountMax":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":1},"SharedBoolrepeatForever":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBoolendOnFailure":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(0,120)"},"ID":35,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-476.796661,120)","Comment":"Check\nCondition"},"ID":36,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"HasStatusLand","NodeData":{"Offset":"(0,120)"},"ID":37,"Name":"Has
+        Status Land","Instant":true,"SharedLandsLands":{"Type":"SharedLands","Name":"Lands","IsShared":true},"Typetype":"CanSowing"}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-253.605591,120)","Comment":"Get\nLand"},"ID":38,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"GetLand","NodeData":{"Offset":"(-110.960632,120)"},"ID":39,"Name":"Get
+        Land","Instant":true,"SharedLandsLands":{"Type":"SharedLands","Name":"Lands","IsShared":true},"SharedLandLand":{"Type":"SharedLand","Name":"Land","IsShared":true},"Typetype":"CanSowing"},{"Type":"RegisterLand","NodeData":{"Offset":"(-0.9607115,120)"},"ID":40,"Name":"Register
+        Land","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"SharedLandLand":{"Type":"SharedLand","Name":"Land","IsShared":true}},{"Type":"LandToTarget","NodeData":{"Offset":"(124.190681,120)"},"ID":41,"Name":"Land
+        To Target","Instant":true,"SharedLandLand":{"Type":"SharedLand","Name":"Land","IsShared":true},"SharedTransformTarget":{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"Target","IsShared":true}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(4.29153442,119.728767)","Comment":"Move\nTo\nTarget"},"ID":42,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"MoveAgentHuman","NodeData":{"Offset":"(-1.44930458,119.583336)"},"ID":43,"Name":"Move
+        Agent Human","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"SharedTransformTarget":{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"Target","IsShared":true},"BooleanisRandom":false,"SingleminDistane":0.5,"SinglemaxDistane":1,"BooleanisDirection":true,"GameObjectself":2}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(183.821167,124.109009)","Comment":"Sow"},"ID":44,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"SetStatusHuman","NodeData":{"Offset":"(1.62512207,115.565979)"},"ID":45,"Name":"Set
+        Status Human","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"HumanStatusstatus":"Sow"},{"Type":"Sow","NodeData":{"Offset":"(117.96994,124.736816)"},"ID":46,"Name":"Sow","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"SharedLandLand":{"Type":"SharedLand","Name":"Land","IsShared":true}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(419.425446,123.404427)","Comment":"End\nTask"},"ID":47,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"DeregisterLand","NodeData":{"Offset":"(0,120)"},"ID":48,"Name":"Deregister
+        Land","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"SharedLandLand":{"Type":"SharedLand","Name":"Land","IsShared":true}}]}]}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(115.40451,117.432556)","Comment":"End\nTask"},"ID":49,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"SetStatusHuman","NodeData":{"Offset":"(-3.333191,120.9093)"},"ID":50,"Name":"Set
+        Status Human","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"HumanStatusstatus":"EndSow"},{"Type":"BehaviorDesigner.Runtime.Tasks.RandomSelector","NodeData":{"Offset":"(127.250305,119.565231)"},"ID":51,"Name":"Random
+        Selector","Instant":true,"Int32seed":0,"BooleanuseSeed":false,"AbortTypeabortType":"None","Children":[{"Type":"CanWc","NodeData":{"Offset":"(-106.8421,120)"},"ID":52,"Name":"Can
+        Wc","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true}},{"Type":"CanSleep","NodeData":{"Offset":"(0,120)"},"ID":53,"Name":"Can
+        Sleep","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true}}]}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-0.471803665,124.0896)","Comment":"Watering","Collapsed":true},"ID":54,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-597.961243,120)","Comment":"Check\nCondition"},"ID":55,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Inverter","NodeData":{"Offset":"(-218.915039,118.966309)"},"ID":56,"Name":"Inverter","Instant":true,"Children":[{"Type":"HasCrop","NodeData":{"Offset":"(0,120)"},"ID":57,"Name":"Has
+        Crop","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.UnknownTask","NodeData":{"Offset":"(-105,120)","Comment":"Unknown
+        Task. Right click and Replace to locate new task."},"ID":58,"Name":"Unknown
+        Has Enery","Instant":true,"StringJSONSerialization":"{\"Type\":\"HasEnery\",\"NodeData\":{\"Offset\":\"(-105,120)\"},\"ID\":96,\"Name\":\"Has
+        Enery\",\"Instant\":true,\"SharedHumanHuman\":{\"Type\":\"SharedHuman\",\"Name\":\"Human\",\"IsShared\":true}}","List`1fieldNameHash":[],"List`1startIndex":[],"List`1dataPosition":[],"List`1unityObjects":[],"List`1byteData":[]},{"Type":"GetLands","NodeData":{"Offset":"(5.00000572,120)"},"ID":59,"Name":"Get
+        Lands","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"SharedLandsLands":{"Type":"SharedLands","Name":"Lands","IsShared":true}},{"Type":"HasStatusLands","NodeData":{"Offset":"(119.642952,116.130905)"},"ID":60,"Name":"Has
+        Status Lands","Instant":true,"SharedLandsLands":{"Type":"SharedLands","Name":"Lands","IsShared":true},"List`1status":["Sowed"]},{"Type":"HasStatusLand","NodeData":{"Offset":"(251.428574,120)"},"ID":61,"Name":"Has
+        Status Land","Instant":true,"SharedLandsLands":{"Type":"SharedLands","Name":"Lands","IsShared":true},"Typetype":"CanWatering"}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-238.421814,122.436707)","Comment":"Start\nWater"},"ID":62,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.UnknownTask","NodeData":{"Offset":"(4.462036,123.662354)","Comment":"Unknown
+        Task. Right click and Replace to locate new task."},"ID":63,"Name":"Unknown
+        Show Chat","Instant":true,"StringJSONSerialization":"{\"Type\":\"ShowChat\",\"NodeData\":{\"Offset\":\"(4.462036,123.662354)\"},\"ID\":101,\"Name\":\"Show
+        Chat\",\"Instant\":true,\"SharedHumanHuman\":{\"Type\":\"SharedHuman\",\"Name\":\"Human\",\"IsShared\":true},\"ChatTypetype\":\"StartWater\"}","List`1fieldNameHash":[],"List`1startIndex":[],"List`1dataPosition":[],"List`1unityObjects":[],"List`1byteData":[]},{"Type":"SetStatusHuman","NodeData":{"Offset":"(124.941833,116.060425)"},"ID":64,"Name":"Set
+        Status Human","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"HumanStatusstatus":"StartWater"}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Inverter","NodeData":{"Offset":"(6.10351563E-05,120)"},"ID":65,"Name":"Inverter","Instant":true,"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Repeater","NodeData":{"Offset":"(6.10351563E-05,120)"},"ID":66,"Name":"Repeater","Instant":true,"SharedIntcount":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBoolrandomCount":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedIntrandomCountMin":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":1},"SharedIntrandomCountMax":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":1},"SharedBoolrepeatForever":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBoolendOnFailure":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(6.10351563E-05,120)"},"ID":67,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-472.858154,124.285645)","Comment":"Check\nCondition"},"ID":68,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"HasStatusLand","NodeData":{"Offset":"(-2.19512653,117.804871)"},"ID":69,"Name":"Has
+        Status Land","Instant":true,"SharedLandsLands":{"Type":"SharedLands","Name":"Lands","IsShared":true},"Typetype":"CanWatering"}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-239.17627,120)","Comment":"Get\nLand"},"ID":70,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"GetLand","NodeData":{"Offset":"(-108.3067,120)"},"ID":71,"Name":"Get
+        Land","Instant":true,"SharedLandsLands":{"Type":"SharedLands","Name":"Lands","IsShared":true},"SharedLandLand":{"Type":"SharedLand","Name":"Land","IsShared":true},"Typetype":"CanWatering"},{"Type":"RegisterLand","NodeData":{"Offset":"(1.69332314,120)"},"ID":72,"Name":"Register
+        Land","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"SharedLandLand":{"Type":"SharedLand","Name":"Land","IsShared":true}},{"Type":"LandToTarget","NodeData":{"Offset":"(108.383896,120)"},"ID":73,"Name":"Land
+        To Target","Instant":true,"SharedLandLand":{"Type":"SharedLand","Name":"Land","IsShared":true},"SharedTransformTarget":{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"Target","IsShared":true}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(6.10351563E-05,120)","Comment":"Move\nTo\nTarget"},"ID":74,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"MoveAgentHuman","NodeData":{"Offset":"(0,120)"},"ID":75,"Name":"Move
+        Agent Human","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"SharedTransformTarget":{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"Target","IsShared":true},"BooleanisRandom":false,"SingleminDistane":0.5,"SinglemaxDistane":1,"BooleanisDirection":true,"GameObjectself":3}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(178.69635,120.575134)","Comment":"Water"},"ID":76,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"SetStatusHuman","NodeData":{"Offset":"(-4.364685,119.20697)"},"ID":77,"Name":"Set
+        Status Human","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"HumanStatusstatus":"Water"},{"Type":"Water","NodeData":{"Offset":"(115.194252,124.205994)"},"ID":78,"Name":"Water","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"SharedLandLand":{"Type":"SharedLand","Name":"Land","IsShared":true}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(414.564667,120)","Comment":"End\nTask"},"ID":79,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"DeregisterLand","NodeData":{"Offset":"(6.10351563E-05,120)"},"ID":80,"Name":"Deregister
+        Land","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"SharedLandLand":{"Type":"SharedLand","Name":"Land","IsShared":true}}]}]}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(115.9949,120)","Comment":"End\nTask"},"ID":81,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"SetStatusHuman","NodeData":{"Offset":"(4.141694,124.949646)"},"ID":82,"Name":"Set
+        Status Human","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"HumanStatusstatus":"EndWater"},{"Type":"BehaviorDesigner.Runtime.Tasks.RandomSelector","NodeData":{"Offset":"(134.041367,120)"},"ID":83,"Name":"Random
+        Selector","Instant":true,"Int32seed":0,"BooleanuseSeed":false,"AbortTypeabortType":"None","Children":[{"Type":"CanWc","NodeData":{"Offset":"(-119.999939,120)"},"ID":84,"Name":"Can
+        Wc","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true}},{"Type":"CanSleep","NodeData":{"Offset":"(6.10351563E-05,120)"},"ID":85,"Name":"Can
+        Sleep","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true}}]}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(464.7165,121.855133)","Comment":"Waiting","Collapsed":true},"ID":86,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-833.3624,106.105988)","Comment":"Check\nCondition"},"ID":87,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.UnknownTask","NodeData":{"Offset":"(-112.358932,120.509583)","Comment":"Unknown
+        Task. Right click and Replace to locate new task."},"ID":88,"Name":"Unknown
+        Has Enery","Instant":true,"StringJSONSerialization":"{\"Type\":\"HasEnery\",\"NodeData\":{\"Offset\":\"(-112.358932,120.509583)\"},\"ID\":176,\"Name\":\"Has
+        Enery\",\"Instant\":true,\"SharedHumanHuman\":{\"Type\":\"SharedHuman\",\"Name\":\"Human\",\"IsShared\":true}}","List`1fieldNameHash":[],"List`1startIndex":[],"List`1dataPosition":[],"List`1unityObjects":[],"List`1byteData":[]},{"Type":"GetLands","NodeData":{"Offset":"(3.00756073,120)"},"ID":89,"Name":"Get
+        Lands","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"SharedLandsLands":{"Type":"SharedLands","Name":"Lands","IsShared":true}},{"Type":"HasStatusLands","NodeData":{"Offset":"(122.507492,120)"},"ID":90,"Name":"Has
+        Status Lands","Instant":true,"SharedLandsLands":{"Type":"SharedLands","Name":"Lands","IsShared":true},"List`1status":["Watered","Immatured"]},{"Type":"BehaviorDesigner.Runtime.Tasks.Inverter","NodeData":{"Offset":"(235.316162,120.835083)"},"ID":91,"Name":"Inverter","Instant":true,"Children":[{"Type":"HasStatusLand","NodeData":{"Offset":"(-4.144165,123.850586)"},"ID":92,"Name":"Has
+        Status Land","Instant":true,"SharedLandsLands":{"Type":"SharedLands","Name":"Lands","IsShared":true},"Typetype":"CanGaining"}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-475.032349,106.105988)","Comment":"Get\nLand"},"ID":93,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"GetLand","NodeData":{"Offset":"(-4.06034756,120)"},"ID":94,"Name":"Get
+        Land","Instant":true,"SharedLandsLands":{"Type":"SharedLands","Name":"Lands","IsShared":true},"SharedLandLand":{"Type":"SharedLand","Name":"Land","IsShared":true},"Typetype":"Random"},{"Type":"LandToTarget","NodeData":{"Offset":"(111.127029,120)"},"ID":95,"Name":"Land
+        To Target","Instant":true,"SharedLandLand":{"Type":"SharedLand","Name":"Land","IsShared":true},"SharedTransformTarget":{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"Target","IsShared":true}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-256.187744,112.110657)","Comment":"Start\nWait"},"ID":96,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.UnknownTask","NodeData":{"Offset":"(2.62479973,115.07074)","Comment":"Unknown
+        Task. Right click and Replace to locate new task."},"ID":97,"Name":"Unknown
+        Show Chat","Instant":true,"StringJSONSerialization":"{\"Type\":\"ShowChat\",\"NodeData\":{\"Offset\":\"(2.62479973,115.07074)\"},\"ID\":185,\"Name\":\"Show
+        Chat\",\"Instant\":true,\"SharedHumanHuman\":{\"Type\":\"SharedHuman\",\"Name\":\"Human\",\"IsShared\":true},\"ChatTypetype\":\"Wait\"}","List`1fieldNameHash":[],"List`1startIndex":[],"List`1dataPosition":[],"List`1unityObjects":[],"List`1byteData":[]},{"Type":"SetStatusHuman","NodeData":{"Offset":"(122.12088,121.881775)"},"ID":98,"Name":"Set
+        Status Human","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"HumanStatusstatus":"StartWait"}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(4.70165825,105.322021)","Comment":"Move\nTo\nTarget"},"ID":99,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"MoveAgentHuman","NodeData":{"Offset":"(0,120)"},"ID":100,"Name":"Move
+        Agent Human","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"SharedTransformTarget":{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"Target","IsShared":true},"BooleanisRandom":false,"SingleminDistane":0.2,"SinglemaxDistane":1,"BooleanisDirection":true,"GameObjectself":4}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(258.1465,110)","Comment":"Wait"},"ID":101,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"SetStatusHuman","NodeData":{"Offset":"(-118.536682,117.804871)"},"ID":102,"Name":"Set
+        Status Human","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"HumanStatusstatus":"Wait"},{"Type":"BehaviorDesigner.Runtime.Tasks.Inverter","NodeData":{"Offset":"(3.66784668,123.709656)"},"ID":103,"Name":"Inverter","Instant":true,"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Repeater","NodeData":{"Offset":"(0,120)"},"ID":104,"Name":"Repeater","Instant":true,"SharedIntcount":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBoolrandomCount":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedIntrandomCountMin":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":10},"SharedIntrandomCountMax":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":20},"SharedBoolrepeatForever":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedBoolendOnFailure":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(4.873459,117.350121)"},"ID":105,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Inverter","NodeData":{"Offset":"(4.583311,122.865845)"},"ID":106,"Name":"Inverter","Instant":true,"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-4.07160759,118.624504)"},"ID":107,"Name":"Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"HasStatusLand","NodeData":{"Offset":"(-130.000122,119.047821)"},"ID":108,"Name":"Has
+        Status Land","Instant":true,"SharedLandsLands":{"Type":"SharedLands","Name":"Lands","IsShared":true},"Typetype":"CanGaining"},{"Type":"HasStatusLands","NodeData":{"Offset":"(3.74770355,117.143059)"},"ID":109,"Name":"Has
+        Status Lands","Instant":true,"SharedLandsLands":{"Type":"SharedLands","Name":"Lands","IsShared":true},"List`1status":["Matured"]}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(114.757355,118.561234)"},"ID":110,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}}]}]}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(434.515717,114.740479)","Comment":"End\nWait"},"ID":111,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"SetStatusHuman","NodeData":{"Offset":"(0,120)"},"ID":112,"Name":"Set
+        Status Human","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"HumanStatusstatus":"EndWait"}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(810.694336,116.053207)","Comment":"Gaining","Collapsed":true},"ID":113,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-478.85968,120)","Comment":"Check\nCondition"},"ID":114,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Inverter","NodeData":{"Offset":"(-109.284912,124.765259)"},"ID":115,"Name":"Inverter","Instant":true,"Children":[{"Type":"HasCrop","NodeData":{"Offset":"(0,120)"},"ID":116,"Name":"Has
+        Crop","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true}}]},{"Type":"GetLands","NodeData":{"Offset":"(1.1111393,120)"},"ID":117,"Name":"Get
+        Lands","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"SharedLandsLands":{"Type":"SharedLands","Name":"Lands","IsShared":true}},{"Type":"HasStatusLand","NodeData":{"Offset":"(120.000061,120)"},"ID":118,"Name":"Has
+        Status Land","Instant":true,"SharedLandsLands":{"Type":"SharedLands","Name":"Lands","IsShared":true},"Typetype":"CanGaining"}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-237.79306,124.8421)","Comment":"Start\nGain"},"ID":119,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.UnknownTask","NodeData":{"Offset":"(4.31211853,115.402222)","Comment":"Unknown
+        Task. Right click and Replace to locate new task."},"ID":120,"Name":"Unknown
+        Show Chat","Instant":true,"StringJSONSerialization":"{\"Type\":\"ShowChat\",\"NodeData\":{\"Offset\":\"(4.31211853,115.402222)\"},\"ID\":208,\"Name\":\"Show
+        Chat\",\"Instant\":true,\"SharedHumanHuman\":{\"Type\":\"SharedHuman\",\"Name\":\"Human\",\"IsShared\":true},\"ChatTypetype\":\"StartGainCrop\"}","List`1fieldNameHash":[],"List`1startIndex":[],"List`1dataPosition":[],"List`1unityObjects":[],"List`1byteData":[]},{"Type":"SetStatusHuman","NodeData":{"Offset":"(117.179489,120)"},"ID":121,"Name":"Set
+        Status Human","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"HumanStatusstatus":"StartGain"}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Inverter","NodeData":{"Offset":"(0,120)"},"ID":122,"Name":"Inverter","Instant":true,"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Repeater","NodeData":{"Offset":"(0,120)"},"ID":123,"Name":"Repeater","Instant":true,"SharedIntcount":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBoolrandomCount":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedIntrandomCountMin":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":1},"SharedIntrandomCountMax":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":1},"SharedBoolrepeatForever":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBoolendOnFailure":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(0,120)"},"ID":124,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-473.731567,106.735046)","Comment":"Check\nCondition"},"ID":125,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"HasStatusLand","NodeData":{"Offset":"(1.22451591,118.888893)"},"ID":126,"Name":"Has
+        Status Land","Instant":true,"SharedLandsLands":{"Type":"SharedLands","Name":"Lands","IsShared":true},"Typetype":"CanGaining"}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-241.219635,108.888893)","Comment":"Get\nLand"},"ID":127,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"GetLand","NodeData":{"Offset":"(-105.788071,120)"},"ID":128,"Name":"Get
+        Land","Instant":true,"SharedLandsLands":{"Type":"SharedLands","Name":"Lands","IsShared":true},"SharedLandLand":{"Type":"SharedLand","Name":"Land","IsShared":true},"Typetype":"CanGaining"},{"Type":"RegisterLand","NodeData":{"Offset":"(4.680436,120)"},"ID":129,"Name":"Register
+        Land","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"SharedLandLand":{"Type":"SharedLand","Name":"Land","IsShared":true}},{"Type":"LandToTarget","NodeData":{"Offset":"(113.215248,120)"},"ID":130,"Name":"Land
+        To Target","Instant":true,"SharedLandLand":{"Type":"SharedLand","Name":"Land","IsShared":true},"SharedTransformTarget":{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"Target","IsShared":true}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-1.376133,108.88887)","Comment":"Move\nTo\nTarget"},"ID":131,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"MoveAgentHuman","NodeData":{"Offset":"(-2.44895172,120)"},"ID":132,"Name":"Move
+        Agent Human","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"SharedTransformTarget":{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"Target","IsShared":true},"BooleanisRandom":false,"SingleminDistane":0.5,"SinglemaxDistane":1,"BooleanisDirection":true,"GameObjectself":5}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(243.686844,106.068634)","Comment":"Gain\nCrop"},"ID":133,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.UnknownTask","NodeData":{"Offset":"(-117.499954,120)","Comment":"Unknown
+        Task. Right click and Replace to locate new task."},"ID":134,"Name":"Unknown
+        Show Chat","Instant":true,"StringJSONSerialization":"{\"Type\":\"ShowChat\",\"NodeData\":{\"Offset\":\"(-117.499954,120)\"},\"ID\":222,\"Name\":\"Show
+        Chat\",\"Instant\":true,\"SharedHumanHuman\":{\"Type\":\"SharedHuman\",\"Name\":\"Human\",\"IsShared\":true},\"ChatTypetype\":\"GainCrop\"}","List`1fieldNameHash":[],"List`1startIndex":[],"List`1dataPosition":[],"List`1unityObjects":[],"List`1byteData":[]},{"Type":"SetStatusHuman","NodeData":{"Offset":"(0,119.583336)"},"ID":135,"Name":"Set
+        Status Human","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"HumanStatusstatus":"GainCrop"},{"Type":"GainCrop","NodeData":{"Offset":"(118.605286,118.671448)"},"ID":136,"Name":"Gain
+        Crop","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"SharedLandLand":{"Type":"SharedLand","Name":"Land","IsShared":true}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(481.1353,108.8889)","Comment":"End\nTask"},"ID":137,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"DeregisterLand","NodeData":{"Offset":"(6.10351563E-05,120)"},"ID":138,"Name":"Deregister
+        Land","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"SharedLandLand":{"Type":"SharedLand","Name":"Land","IsShared":true}}]}]}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(125.399178,120)","Comment":"End\nGain"},"ID":139,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"SetStatusHuman","NodeData":{"Offset":"(0,120)"},"ID":140,"Name":"Set
+        Status Human","Instant":true,"SharedHumanHuman":{"Type":"SharedHuman","Name":"Human","IsShared":true},"HumanStatusstatus":"EndGain"}]}]}]}]}]},"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"Target","IsShared":true},{"Type":"SharedStore","Name":"Store","IsShared":true},null,{"Type":"SharedHuman","Name":"Human","IsShared":true},{"Type":"SharedLands","Name":"Lands","IsShared":true},{"Type":"SharedLand","Name":"Land","IsShared":true},null,null,null,null,null,null]}'
+      fieldSerializationData:
+        typeName: []
+        fieldNameHash: 
+        startIndex: 
+        dataPosition: 
+        unityObjects:
+        - {fileID: 6708850205074975953}
+        - {fileID: 6389334895006776872}
+        - {fileID: 6389334895006776872}
+        - {fileID: 6389334895006776872}
+        - {fileID: 6389334895006776872}
+        - {fileID: 6389334895006776872}
+        byteData: 
+        byteDataArray: 
+      Version: 1.7.1
+  gizmoViewMode: 2
+  showBehaviorDesignerGizmo: 1
+--- !u!114 &6708850205074975953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6389334895654392992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d79d9c5bcddf1564695404af721d0828, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Content: {fileID: 7409409720600299740}
+  m_Graphic: {fileID: 6389334895006776872}
+  m_SleepR: {fileID: 0}
+  m_SleepL: {fileID: 0}
+  m_Speed: {fileID: 0}
+  m_Enery: {fileID: 6999879913008468076}
+  m_Chat: {fileID: 0}
+  data:
+    Status: 0
+    Speed: 1
+    Sleep: 0
+    Wc: 0
+    Direction: 1
+    Eat: -1
+  m_Fire: {fileID: 3948647761727432110}
+  m_SeedRight: {fileID: 7032317434761542821, guid: fa30e5930cbca8c4e880645ffd37e53f, type: 3}
+  m_SeedLeft: {fileID: 746952587033702410, guid: f59ad71cae4097141a96fbac20b75cae, type: 3}
+--- !u!50 &1305028406147264499
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6389334895654392992}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.8
+  m_LinearDrag: 1.5
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!58 &6266833854999206336
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6389334895654392992}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.385}
+  serializedVersion: 2
+  m_Radius: 0.3
+--- !u!1 &7122461782371480053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7880007465025498173}
+  - component: {fileID: 3942098752560933207}
+  - component: {fileID: 5891446741745083673}
+  - component: {fileID: 8168667029053328655}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &7880007465025498173
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7122461782371480053}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 1}
+  m_Children:
+  - {fileID: 1120973685300340532}
+  m_Father: {fileID: 7409409720600299740}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 500, y: 500}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!223 &3942098752560933207
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7122461782371480053}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 1
+  m_TargetDisplay: 0
+--- !u!114 &5891446741745083673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7122461782371480053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 1
+--- !u!114 &8168667029053328655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7122461782371480053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 55
+--- !u!1 &9000099789582794129
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6552082577767254113}
+  - component: {fileID: 1171879826706888466}
+  - component: {fileID: 7022878788036202371}
+  - component: {fileID: 2793133127776694671}
+  m_Layer: 5
+  m_Name: Bar_Gain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6552082577767254113
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9000099789582794129}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5908656180264342810}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0.99}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &1171879826706888466
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9000099789582794129}
+  m_CullTransparentMesh: 1
+--- !u!114 &7022878788036202371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9000099789582794129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66fdde682fbb4d340b3736f0a0a7771b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 3bd84f02c58e46b4a86d07271a1e03aa, type: 3}
+  m_Type: 3
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 1
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &2793133127776694671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9000099789582794129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6034ce03d5f684e4c9bbbabc11dcf52f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 7022878788036202371}
+  hideOnEmpty: 1
+  useDiscreteSteps: 0
+  numSteps: 10

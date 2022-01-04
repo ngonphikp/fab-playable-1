@@ -1,0 +1,50 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+[System.Serializable]
+public enum HumanStatus
+{
+    Idle = 0,
+    MoveSleep,
+    Sleep,
+    WakeUp,
+    StartMoveCanteen,
+    MoveCanteen,
+    WaitEat,
+    Eat,
+    EndEat,
+    MoveWc,
+    Wc,
+    EndWc,
+    MoveStore,
+    Pay,
+    EndPay,
+    StartGain,
+    GainCrop,
+    GainAnimal,
+    EndGain,
+    StartSow,
+    Sow,
+    EndSow,
+    StartWater,
+    Water,
+    EndWater,
+    StartWait,
+    Wait,
+    EndWait,
+    StartFeed,
+    StartFood,
+    Food,
+    EndFood,
+    StartFeeding,
+    Feeding,
+    EndFeeding,
+    EndFeed,
+    StartLootAct,
+    LootAct,
+    EndLootAct,
+    StartDropAct,
+    DropAct,
+    EndDropAct
+}

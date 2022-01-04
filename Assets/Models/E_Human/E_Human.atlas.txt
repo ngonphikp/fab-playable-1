@@ -1,0 +1,293 @@
+
+E_Human.png
+size: 460,460
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+34_Beard
+  rotate: false
+  xy: 275, 46
+  size: 21, 17
+  orig: 23, 19
+  offset: 1, 1
+  index: -1
+34_Body
+  rotate: true
+  xy: 135, 2
+  size: 42, 49
+  orig: 44, 51
+  offset: 1, 1
+  index: -1
+34_Hat
+  rotate: false
+  xy: 123, 171
+  size: 122, 55
+  orig: 124, 57
+  offset: 1, 1
+  index: -1
+34_Head
+  rotate: false
+  xy: 329, 158
+  size: 65, 65
+  orig: 67, 67
+  offset: 1, 1
+  index: -1
+34_L_Foot
+  rotate: false
+  xy: 2, 2
+  size: 14, 22
+  orig: 16, 24
+  offset: 1, 1
+  index: -1
+34_R_Foot
+  rotate: false
+  xy: 436, 123
+  size: 14, 23
+  orig: 16, 25
+  offset: 1, 1
+  index: -1
+Back_Body
+  rotate: true
+  xy: 186, 2
+  size: 42, 47
+  orig: 44, 49
+  offset: 1, 1
+  index: -1
+Back_Head
+  rotate: false
+  xy: 347, 225
+  size: 66, 65
+  orig: 68, 67
+  offset: 1, 1
+  index: -1
+Back_L_Foot
+  rotate: false
+  xy: 422, 72
+  size: 12, 23
+  orig: 14, 25
+  offset: 1, 1
+  index: -1
+Back_Mu
+  rotate: true
+  xy: 89, 25
+  size: 124, 44
+  orig: 126, 46
+  offset: 1, 1
+  index: -1
+Back_Mu_Top
+  rotate: true
+  xy: 415, 217
+  size: 73, 43
+  orig: 75, 45
+  offset: 1, 1
+  index: -1
+Back_R_Foot
+  rotate: true
+  xy: 18, 12
+  size: 12, 23
+  orig: 14, 25
+  offset: 1, 1
+  index: -1
+Bag
+  rotate: false
+  xy: 126, 228
+  size: 125, 78
+  orig: 125, 78
+  offset: 0, 0
+  index: -1
+BagB
+  rotate: false
+  xy: 253, 228
+  size: 92, 64
+  orig: 93, 64
+  offset: 1, 0
+  index: -1
+Beard
+  rotate: true
+  xy: 361, 68
+  size: 37, 19
+  orig: 39, 21
+  offset: 1, 1
+  index: -1
+Body
+  rotate: true
+  xy: 216, 46
+  size: 43, 57
+  orig: 45, 59
+  offset: 1, 1
+  index: -1
+Head
+  rotate: true
+  xy: 2, 26
+  size: 123, 85
+  orig: 125, 87
+  offset: 1, 1
+  index: -1
+Human_sleep
+  rotate: false
+  xy: 2, 358
+  size: 132, 100
+  orig: 132, 100
+  offset: 0, 0
+  index: -1
+Liem
+  rotate: true
+  xy: 135, 46
+  size: 123, 79
+  orig: 125, 81
+  offset: 1, 1
+  index: -1
+Pee/pee1
+  rotate: false
+  xy: 268, 109
+  size: 55, 49
+  orig: 66, 59
+  offset: 4, 3
+  index: -1
+Pee/pee2
+  rotate: false
+  xy: 325, 107
+  size: 55, 49
+  orig: 66, 59
+  offset: 4, 3
+  index: -1
+Pee/pee3
+  rotate: false
+  xy: 382, 97
+  size: 52, 49
+  orig: 66, 59
+  offset: 4, 3
+  index: -1
+R_Foot
+  rotate: false
+  xy: 298, 47
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+R_Leg
+  rotate: false
+  xy: 436, 102
+  size: 11, 19
+  orig: 13, 21
+  offset: 1, 1
+  index: -1
+ThungTuoi
+  rotate: false
+  xy: 255, 294
+  size: 96, 65
+  orig: 98, 67
+  offset: 1, 1
+  index: -1
+Water_43
+  rotate: false
+  xy: 216, 91
+  size: 50, 67
+  orig: 52, 69
+  offset: 1, 1
+  index: -1
+backstabEffect1
+  rotate: false
+  xy: 396, 148
+  size: 61, 67
+  orig: 150, 110
+  offset: 42, 21
+  index: -1
+backstabEffect2
+  rotate: false
+  xy: 247, 160
+  size: 80, 66
+  orig: 150, 110
+  offset: 24, 21
+  index: -1
+fallswave1
+  rotate: true
+  xy: 282, 9
+  size: 35, 28
+  orig: 44, 34
+  offset: 5, 2
+  index: -1
+fallswave2
+  rotate: false
+  xy: 321, 76
+  size: 38, 29
+  orig: 44, 34
+  offset: 3, 2
+  index: -1
+fallswave3
+  rotate: false
+  xy: 382, 67
+  size: 38, 28
+  orig: 44, 34
+  offset: 3, 2
+  index: -1
+ghostEndSmoke/ghostEndSmoke1
+  rotate: true
+  xy: 353, 292
+  size: 65, 69
+  orig: 140, 120
+  offset: 35, 20
+  index: -1
+ghostEndSmoke/ghostEndSmoke2
+  rotate: true
+  xy: 370, 359
+  size: 99, 83
+  orig: 140, 120
+  offset: 19, 20
+  index: -1
+ghostEndSmoke/ghostEndSmoke3
+  rotate: false
+  xy: 257, 361
+  size: 111, 97
+  orig: 140, 120
+  offset: 12, 13
+  index: -1
+ghostEndSmoke/ghostEndSmoke4
+  rotate: false
+  xy: 2, 151
+  size: 119, 101
+  orig: 140, 120
+  offset: 9, 11
+  index: -1
+ghostEndSmoke/ghostEndSmoke5
+  rotate: false
+  xy: 2, 254
+  size: 122, 102
+  orig: 140, 120
+  offset: 9, 10
+  index: -1
+ghostEndSmoke/ghostEndSmoke6
+  rotate: false
+  xy: 136, 364
+  size: 119, 94
+  orig: 140, 120
+  offset: 10, 19
+  index: -1
+ghostEndSmoke/ghostEndSmoke7
+  rotate: false
+  xy: 136, 308
+  size: 117, 54
+  orig: 140, 120
+  offset: 12, 60
+  index: -1
+gio
+  rotate: false
+  xy: 275, 65
+  size: 44, 42
+  orig: 46, 50
+  offset: 2, 4
+  index: -1
+shadow
+  rotate: true
+  xy: 424, 299
+  size: 58, 34
+  orig: 58, 34
+  offset: 0, 0
+  index: -1
+xosua
+  rotate: true
+  xy: 235, 2
+  size: 42, 45
+  orig: 46, 50
+  offset: 2, 2
+  index: -1

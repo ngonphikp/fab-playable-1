@@ -1,0 +1,195 @@
+
+E_Boss.png
+size: 364,364
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Boss_Body
+  rotate: true
+  xy: 88, 21
+  size: 42, 57
+  orig: 44, 59
+  offset: 1, 1
+  index: -1
+Boss_Gay
+  rotate: true
+  xy: 248, 39
+  size: 16, 46
+  orig: 18, 48
+  offset: 1, 1
+  index: -1
+Boss_Hat
+  rotate: false
+  xy: 176, 219
+  size: 100, 59
+  orig: 102, 61
+  offset: 1, 1
+  index: -1
+Boss_Head
+  rotate: false
+  xy: 252, 57
+  size: 66, 66
+  orig: 68, 68
+  offset: 1, 1
+  index: -1
+Boss_L_Foot
+  rotate: false
+  xy: 337, 144
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+Boss_R_Foot
+  rotate: false
+  xy: 337, 144
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+Boss_L_Leg
+  rotate: false
+  xy: 163, 241
+  size: 11, 19
+  orig: 13, 21
+  offset: 1, 1
+  index: -1
+Boss_R_Leg
+  rotate: false
+  xy: 163, 220
+  size: 11, 19
+  orig: 13, 21
+  offset: 1, 1
+  index: -1
+Boss_Tau
+  rotate: false
+  xy: 218, 15
+  size: 37, 20
+  orig: 39, 22
+  offset: 1, 1
+  index: -1
+shadow
+  rotate: true
+  xy: 320, 65
+  size: 58, 34
+  orig: 58, 34
+  offset: 0, 0
+  index: -1
+smoke_16/smoke_16_00000
+  rotate: true
+  xy: 2, 2
+  size: 5, 11
+  orig: 192, 108
+  offset: 97, 0
+  index: -1
+smoke_16/smoke_16_00001
+  rotate: false
+  xy: 259, 163
+  size: 12, 54
+  orig: 192, 108
+  offset: 92, 0
+  index: -1
+smoke_16/smoke_16_00002
+  rotate: true
+  xy: 147, 11
+  size: 24, 69
+  orig: 192, 108
+  offset: 81, 0
+  index: -1
+smoke_16/smoke_16_00003
+  rotate: true
+  xy: 259, 125
+  size: 35, 76
+  orig: 192, 108
+  offset: 73, 0
+  index: -1
+smoke_16/smoke_16_00004
+  rotate: true
+  xy: 2, 9
+  size: 42, 84
+  orig: 192, 108
+  offset: 68, 0
+  index: -1
+smoke_16/smoke_16_00005
+  rotate: true
+  xy: 158, 37
+  size: 52, 88
+  orig: 192, 108
+  offset: 65, 0
+  index: -1
+smoke_16/smoke_16_00006
+  rotate: true
+  xy: 158, 91
+  size: 59, 92
+  orig: 192, 108
+  offset: 63, 0
+  index: -1
+smoke_16/smoke_16_00007
+  rotate: true
+  xy: 163, 152
+  size: 65, 94
+  orig: 192, 108
+  offset: 61, 0
+  index: -1
+smoke_16/smoke_16_00008
+  rotate: false
+  xy: 87, 65
+  size: 69, 95
+  orig: 192, 108
+  offset: 60, 0
+  index: -1
+smoke_16/smoke_16_00009
+  rotate: false
+  xy: 87, 162
+  size: 74, 96
+  orig: 192, 108
+  offset: 58, 0
+  index: -1
+smoke_16/smoke_16_00010
+  rotate: false
+  xy: 278, 162
+  size: 77, 98
+  orig: 192, 108
+  offset: 57, 0
+  index: -1
+smoke_16/smoke_16_00011
+  rotate: false
+  xy: 279, 262
+  size: 80, 100
+  orig: 192, 108
+  offset: 55, 0
+  index: -1
+smoke_16/smoke_16_00012
+  rotate: true
+  xy: 176, 280
+  size: 82, 101
+  orig: 192, 108
+  offset: 54, 0
+  index: -1
+smoke_16/smoke_16_00013
+  rotate: false
+  xy: 2, 53
+  size: 83, 101
+  orig: 192, 108
+  offset: 53, 0
+  index: -1
+smoke_16/smoke_16_00014
+  rotate: false
+  xy: 2, 156
+  size: 83, 102
+  orig: 192, 108
+  offset: 53, 0
+  index: -1
+smoke_16/smoke_16_00015
+  rotate: false
+  xy: 2, 260
+  size: 85, 102
+  orig: 192, 108
+  offset: 52, 0
+  index: -1
+smoke_16/smoke_16_00016
+  rotate: false
+  xy: 89, 262
+  size: 85, 100
+  orig: 192, 108
+  offset: 52, 2
+  index: -1

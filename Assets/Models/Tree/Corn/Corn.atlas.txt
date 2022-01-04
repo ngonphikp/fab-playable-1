@@ -1,0 +1,118 @@
+
+Corn.png
+size: 208,208
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cc_Body
+  rotate: false
+  xy: 2, 106
+  size: 14, 99
+  orig: 16, 101
+  offset: 1, 1
+  index: -1
+cc_C1_La
+  rotate: true
+  xy: 117, 18
+  size: 42, 21
+  orig: 44, 23
+  offset: 1, 1
+  index: -1
+cc_La_1
+  rotate: true
+  xy: 67, 18
+  size: 48, 23
+  orig: 50, 25
+  offset: 1, 1
+  index: -1
+cc_La_2
+  rotate: true
+  xy: 92, 18
+  size: 48, 23
+  orig: 50, 25
+  offset: 1, 1
+  index: -1
+cc_La_3
+  rotate: false
+  xy: 166, 123
+  size: 34, 37
+  orig: 36, 39
+  offset: 1, 1
+  index: -1
+cc_La_4
+  rotate: false
+  xy: 2, 15
+  size: 34, 24
+  orig: 36, 26
+  offset: 1, 1
+  index: -1
+cc_La_56
+  rotate: true
+  xy: 165, 50
+  size: 66, 36
+  orig: 68, 38
+  offset: 1, 1
+  index: -1
+cc_La_7
+  rotate: false
+  xy: 150, 178
+  size: 55, 27
+  orig: 57, 29
+  offset: 1, 1
+  index: -1
+cc_La_8
+  rotate: true
+  xy: 18, 112
+  size: 44, 93
+  orig: 46, 95
+  offset: 1, 1
+  index: -1
+cc_La_9
+  rotate: true
+  xy: 18, 158
+  size: 47, 59
+  orig: 49, 61
+  offset: 1, 1
+  index: -1
+cc_Ngo_1
+  rotate: false
+  xy: 124, 62
+  size: 39, 54
+  orig: 41, 56
+  offset: 1, 1
+  index: -1
+cc_Ngo_2
+  rotate: true
+  xy: 67, 68
+  size: 42, 55
+  orig: 44, 57
+  offset: 1, 1
+  index: -1
+cc_Ngo_3
+  rotate: true
+  xy: 113, 118
+  size: 40, 51
+  orig: 42, 53
+  offset: 1, 1
+  index: -1
+cc_Ngo_4
+  rotate: true
+  xy: 79, 160
+  size: 45, 69
+  orig: 47, 71
+  offset: 1, 1
+  index: -1
+hat_giong1
+  rotate: false
+  xy: 150, 162
+  size: 19, 14
+  orig: 19, 14
+  offset: 0, 0
+  index: -1
+mam
+  rotate: false
+  xy: 2, 41
+  size: 63, 63
+  orig: 63, 63
+  offset: 0, 0
+  index: -1
